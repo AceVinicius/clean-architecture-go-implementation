@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+optioin go_package = ".;pb";
+
+message ProcessRequest {
+    string id = 1;
+    string account_id = 2;
+    float amount = 3;
+}
+
+message ProcessResponse {
+    string id = 1;
+    string status = 2;
+    float error_message = 3;
+}

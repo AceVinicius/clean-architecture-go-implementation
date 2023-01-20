@@ -1,0 +1,30 @@
+POST http://localhost:8080/transaction
+Content-Type: application/json
+
+{
+    "id": "1",
+    "account_id": "1",
+    "amount": 0.7
+}
+
+###
+
+POST http://localhost:8080/transaction
+Content-Type: application/json
+
+{
+    "id": "1",
+    "account_id": "1",
+    "amount": 654
+}
+
+###
+
+POST http://localhost:8080/transaction
+Content-Type: application/json
+
+{
+    "id": "1",
+    "account_id": "1",
+    "amount": 2345
+}
